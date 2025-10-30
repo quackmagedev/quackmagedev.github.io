@@ -12,6 +12,8 @@ body {
   font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   color: #2c2c2c;
   line-height: 1.6;
+  background: #f9fafb;
+  padding-top: 4rem; /* for navbar space */
 }
 
 h1, h2, h3 {
@@ -45,6 +47,7 @@ ul, p {
   margin-right: auto;
 }
 
+/* Keep blockquotes consistent */
 blockquote {
   font-style: italic;
   color: #6b21a8;
@@ -52,21 +55,58 @@ blockquote {
   padding-left: 1em;
 }
 
-/* Navbar styling */
-nav {
-  background: #5b3cc4;
-  padding: 0.5em 1em;
+/* Sticky navbar at top with shadow */
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #5b3cc4;
+  padding: 0.75em 1em;
   text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
 }
 
-nav a {
+.navbar a {
   color: #fff;
-  font-weight: bold;
-  margin: 0 1em;
+  font-weight: 700;
+  margin: 0 1.25em;
   text-decoration: none;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1.1em;
+  transition: color 0.3s ease;
 }
 
-nav a:hover {
+.navbar a:hover {
   color: #ffd700;
   text-decoration: underline;
+}
+
+/* Magical card style for main sections */
+.main-content > section,
+.main-content > div.card,
+.main-content > hr + p,
+.main-content > blockquote {
+  background: linear-gradient(135deg, #ede9fe 0%, #ddd6fe 100%);
+  border: 2px solid #7c3aed;
+  border-radius: 12px;
+  box-shadow: 0 8px 12px rgba(124, 58, 237, 0.25);
+  margin: 2rem auto;
+  max-width: 720px;
+  padding: 1.5rem 2rem;
+  font-family: "Inter", sans-serif;
+  color: #3c096c;
+  transition: box-shadow 0.3s ease;
+}
+
+.main-content > section:hover,
+.main-content > div.card:hover {
+  box-shadow: 0 12px 20px rgba(124, 58, 237, 0.45);
+}
+
+/* Headings in cards */
+.main-content > section h2,
+.main-content > div.card h2 {
+  font-family: "JetBrains Mono", monospace;
+  color: #5b21b6;
+  margin-top: 0;
 }
