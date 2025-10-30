@@ -7,7 +7,7 @@ title: QuackMage
 
 I’m an independent game developer exploring storytelling through mechanics and atmosphere.
 
-I’m currently learning [Godot](https://godotengine.org/) and pixel art.
+I’m currently learning [Godot](https://godotengine.org/) and how to make pixel art.
 
 Expect **devlogs**, **concept art**, and **small experimental releases** soon.
 
