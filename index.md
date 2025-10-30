@@ -6,6 +6,7 @@ title: QuackMage
 # 🦆 Welcome
 
 Hi, I'm QuackMage! Welcome to my corner of the internet!
+
 I make small, weird, and (hopefully) delightful games.
 
 ---
