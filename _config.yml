@@ -1,20 +1,10 @@
 title: "QuackMage"
-description: "Indie Game Developer • Anatine Conjuror"
+description: "Anatine Game Developer"
 theme: jekyll-theme-cayman
-
-# Navbar links
-header_pages:
-  - index.md
-  - projects.md
-  - about.md
 
 show_downloads: false
 github:
   is_project_page: false
-
-# Include custom stylesheet
-include:
-  - assets/custom.css
 
 markdown: kramdown
 highlighter: rouge
