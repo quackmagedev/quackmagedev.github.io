@@ -13,8 +13,7 @@ I make small, weird, and (hopefully) delightful games.
 ## 🕹️ Current Project
 
 🎨 **Nick the Shape Man**  
-A fast shape-shifting adventure to restore color to a lost world. Switch forms, solve puzzles, and explore quirky environments.
-> Built in **Godot** • WIP
+A fast shape-shifting adventure to restore color to a lost world. Made in **Godot.**
 
 💡 Check out more [projects](./projects) or [learn more about me](./about).
 
