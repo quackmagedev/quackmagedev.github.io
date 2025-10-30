@@ -1,3 +1,21 @@
-title: QuackMage
-description: My personal site powered by Jekyll and the Cayman theme
+title: "QuackMage"
+description: "Indie Game Developer • Wizard of Quacks"
 theme: jekyll-theme-cayman
+
+# Optional navbar links (Cayman will show these if you add header links)
+header_pages:
+  - index.md
+  - projects.md
+
+# GitHub Pages options
+show_downloads: false
+github:
+  is_project_page: false
+
+# Include custom stylesheet
+include:
+  - assets/custom.css
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
