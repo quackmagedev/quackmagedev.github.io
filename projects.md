@@ -3,8 +3,6 @@ layout: default
 title: Projects
 ---
 
-<section>
-
 # 🧪 Projects
 
 Welcome to my little lab of experiments!  
@@ -23,7 +21,5 @@ Switch forms, solve puzzles, and explore quirky environments.
 
 - 🐸 **Frogs with Jobs** — a silly frog game with offbeat employment adventures.  
 - 🏰 **Catacomb Crypt** — a dungeon crawl roguelike full of traps, treasures, and chaos.  
-
-</section>
 
 Return to the [home page](./).
