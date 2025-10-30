@@ -51,3 +51,22 @@ blockquote {
   border-left: 4px solid #a855f7;
   padding-left: 1em;
 }
+
+/* Navbar styling */
+nav {
+  background: #5b3cc4;
+  padding: 0.5em 1em;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  font-weight: bold;
+  margin: 0 1em;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ffd700;
+  text-decoration: underline;
+}
