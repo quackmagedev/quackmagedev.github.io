@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Welcome
+title: QuackMage
 ---
 
-## 🦆 Hi, I'm QuackMage!
+# 🦆 Welcome
 
-Welcome to my corner of the internet!
+Hi, I'm QuackMage! Welcome to my corner of the internet!
 I make small, weird, and (hopefully) delightful games.
 
 ---
