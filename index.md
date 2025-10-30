@@ -3,30 +3,20 @@ layout: default
 title: Welcome
 ---
 
-# 🦆 Hi, I'm QuackMage!
-## Indie game developer • Pixel tinkerer • Anatine conjuror
+## 🦆 Hi, I'm QuackMage!
 
 Welcome to my corner of the internet!
-I make small, weird, and (hopefully) delightful games that experiment with mechanics and storytelling.
+I make small, weird, and (hopefully) delightful games.
 
 ---
 
-## 🕹️ Current Projects
+## 🕹️ Current Project
 
 🎨 **Nick the Shape Man**  
 A fast shape-shifting adventure to restore color to a lost world. Switch forms, solve puzzles, and explore quirky environments.
-> Built in Godot • WIP
+> Built in **Godot** • WIP
 
-💡 See more of my projects on the [Projects page](./projects).
-
----
-
-## ✨ About Me
-
-I’m an indie game developer exploring storytelling through gameplay, atmosphere, and small experimental worlds.
-Expect **devlogs**, **concept art**, and **mini releases** soon.
-
-Currently learning **Godot** and **pixel art**. Outside of my projects, I enjoy spending time with my wife and picking up new languages.
+💡 Check out more [projects](./projects) or [learn more about me](./about).
 
 ---
 
