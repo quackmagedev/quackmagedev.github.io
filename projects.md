@@ -5,14 +5,14 @@ title: QuackMage
 
 # 🧪 Projects
 
-Welcome to my little lab of experiments!  
+Welcome to my little lab of experiments!
+
 Here’s what I’m working on, plus a few ideas I’m cooking up:
 
 ---
 
 ## 🎨 Nick the Shape Man
 A fast shape-shifting adventure to restore color to a lost world.
-Switch forms, solve puzzles, and explore quirky environments.
 > Built in [Godot](https://godotengine.org/)
 
 ---
