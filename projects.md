@@ -11,9 +11,13 @@ Here’s what I’m working on, plus a few ideas I’m cooking up:
 
 ---
 
-## 🎨 Nick the Shape Man
+## 🕹️ Current Project
+
+🎨 **Nick the Shape Man**  
 A fast shape-shifting adventure to restore color to a lost world.
-> Built in [Godot](https://godotengine.org/)
+> Made in [Godot](https://godotengine.org/).
+
+💡 Check out more [projects](./projects) or [learn more about me](./about).
 
 ---
 
