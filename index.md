@@ -5,7 +5,7 @@ title: QuackMage
 
 # 🦆 Welcome
 
-Hi, I'm QuackMage, your local anatine conjuror!
+Hi, I’m QuackMage, your local anatine conjuror!
 
 Welcome to my corner of the internet!
 
@@ -17,8 +17,7 @@ I make small, weird, and (hopefully) delightful games.
 
 🎨 **Nick the Shape Man**  
 A fast shape-shifting adventure to restore color to a lost world.
-
-Made in **[Godot](https://godotengine.org/)**.
+> Made in [Godot](https://godotengine.org/).
 
 💡 Check out more [projects](./projects) or [learn more about me](./about).
 
@@ -34,4 +33,4 @@ Made in **[Godot](https://godotengine.org/)**.
 
 ---
 
-Thanks for stopping by. I'm glad you’re here! 🦆
+Thanks for stopping by. I’m glad you’re here! 🦆
