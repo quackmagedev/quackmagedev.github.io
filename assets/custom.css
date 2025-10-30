@@ -1,0 +1,53 @@
+/* === QuackMage custom Cayman tweaks === */
+
+/* Header gradient with a magical feel */
+.page-header {
+  background-color: #5b3cc4;
+  background-image: linear-gradient(120deg, #5b3cc4 0%, #7c3aed 50%, #a855f7 100%);
+  color: #fff;
+}
+
+/* Typography */
+body {
+  font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #2c2c2c;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: "JetBrains Mono", monospace;
+  color: #4c1d95;
+}
+
+/* Links */
+a {
+  color: #7c3aed;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a855f7;
+  text-decoration: underline;
+}
+
+/* Horizontal rule styling */
+hr {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(to right, #7c3aed, transparent);
+  margin: 2rem 0;
+}
+
+/* Project list tweak */
+ul, p {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+blockquote {
+  font-style: italic;
+  color: #6b21a8;
+  border-left: 4px solid #a855f7;
+  padding-left: 1em;
+}
