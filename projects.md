@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Projects
+title: QuackMage
 ---
 
 # 🧪 Projects
@@ -22,4 +22,4 @@ Switch forms, solve puzzles, and explore quirky environments.
 - 🐸 **Frogs with Jobs** — a silly frog game with offbeat employment adventures.  
 - 🏰 **Catacomb Crypt** — a dungeon crawl roguelike full of traps, treasures, and chaos.  
 
-Return to the [home page](./).
+Return to the [home page](./) or [learn more about me](./about).
