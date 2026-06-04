@@ -299,6 +299,18 @@ body::before {
   transform: translateY(-2px);
 }
 
+/* ─── Card link ─── */
+.card__link {
+  display: inline-block;
+  margin-top: .65rem;
+  font-size: .8rem;
+  font-weight: 700;
+  color: var(--muted);
+  text-decoration: none;
+  transition: color .2s;
+}
+.card__link:hover { color: var(--gold); }
+
 /* ─── Experiment list ─── */
 .exp-list {
   list-style: none;
