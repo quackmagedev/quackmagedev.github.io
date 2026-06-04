@@ -125,6 +125,7 @@ body::before {
   gap: 1rem;
   position: relative;
   z-index: 1;
+  background: radial-gradient(ellipse 80% 70% at 50% 50%, var(--bg) 30%, transparent 80%);
 }
 
 .hero__img {
@@ -167,6 +168,7 @@ body::before {
   max-width: 760px;
   margin: 0 auto;
   padding: 3rem 2rem 6rem;
+  background: var(--bg);
 }
 
 /* ─── Section headings ─── */

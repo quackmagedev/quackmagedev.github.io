@@ -11,15 +11,15 @@
   function resize() {
     W = canvas.width = window.innerWidth;
     H = canvas.height = window.innerHeight;
-    stars = Array.from({ length: 90 }, (_, i) => ({
+    stars = Array.from({ length: 200 }, (_, i) => ({
       x: Math.random() * W,
       y: Math.random() * H,
-      sz: i < 6 ? 3 : i < 24 ? 2 : 1,           // a few large, some medium, mostly small
+      sz: i < 10 ? 4 : i < 45 ? 2 : 1,
       col: PALETTE[Math.random() * PALETTE.length | 0],
       phase: Math.random() * Math.PI * 2,
-      spd: 0.005 + Math.random() * 0.012,
-      minA: i < 6 ? 0.4 : 0.08,                  // bright stars stay brighter
-      maxA: i < 6 ? 1.0 : 0.65,
+      spd: 0.004 + Math.random() * 0.01,
+      minA: i < 10 ? 0.5 : i < 45 ? 0.2 : 0.06,
+      maxA: i < 10 ? 1.0 : i < 45 ? 0.85 : 0.55,
     }));
   }
 
