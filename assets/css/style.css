@@ -257,8 +257,8 @@ body::before {
 
 .tag--green {
   color: var(--green);
-  background: rgba(78,205,196,.10);
-  border-color: rgba(78,205,196,.25);
+  background: rgba(60,180,84,.10);
+  border-color: rgba(60,180,84,.25);
 }
 
 /* ─── CTA text ─── */
