@@ -5,7 +5,7 @@ title: QuackMage
 
 # 🦆 Welcome
 
-Hi, I’m QuackMage, your local anatine conjuror!
+Hi, I'm QuackMage, your local anatine conjuror!
 
 Welcome to my corner of the internet!
 
@@ -25,12 +25,12 @@ A fast shape-shifting adventure to restore color to a lost world.
 
 ## 📬 Find Me Elsewhere
 
-- 🎮 [itch.io](https://quackmage.itch.io) – Game releases & devlogs
-- 🛠️ [GitHub](https://github.com/quackmagedev) – Source code & experiments
-- 🐦 [Twitter / X](https://x.com/quackmagedev) – Updates & thoughts
-- 🫂 [Discord](https://discord.gg/spekZQJ3) – Chat & community
-- 💰 [Patreon](https://patreon.com/quackmage) – Support my work
+- 🎮 [itch.io](https://quackmage.itch.io) — Game releases & devlogs
+- 🛠️ [GitHub](https://github.com/quackmagedev) — Source code & experiments
+- 🐦 [Twitter / X](https://x.com/quackmagedev) — Updates & thoughts
+- 🫂 [Discord](https://discord.gg/spekZQJ3) — Chat & community
+- 💰 [Patreon](https://patreon.com/quackmage) — Support my work
 
 ---
 
-Thanks for stopping by. I’m glad you’re here! 🦆
+Thanks for stopping by. I'm glad you're here! 🦆
