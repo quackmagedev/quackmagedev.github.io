@@ -15,6 +15,8 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
 
+img[src*="quackmage"] { image-rendering: pixelated; }
+
 body {
   background: var(--bg);
   color: var(--text);
@@ -63,10 +65,9 @@ body::before {
 }
 
 .nav__brand img {
-  width: 2rem;
-  height: 2rem;
+  width: 29px;   /* 1× art scale */
+  height: 29px;
   object-fit: contain;
-  image-rendering: pixelated;
   transition: transform .3s ease;
 }
 
@@ -116,10 +117,9 @@ body::before {
 }
 
 .hero__img {
-  width: 9rem;
-  height: 9rem;
+  width: 145px;  /* 5× art scale */
+  height: 145px;
   object-fit: contain;
-  image-rendering: pixelated;
   filter: drop-shadow(0 0 28px rgba(252,156,36,.3));
   animation: float 4s ease-in-out infinite;
 }
@@ -359,11 +359,10 @@ body::before {
 }
 
 .about-header img {
-  width: 8rem;
-  height: 8rem;
+  width: 116px;  /* 4× art scale */
+  height: 116px;
   object-fit: contain;
   flex-shrink: 0;
-  image-rendering: pixelated;
   filter: drop-shadow(0 0 20px rgba(252,156,36,.25));
 }
 
@@ -429,8 +428,8 @@ body::before {
   .nav__links { gap: 1rem; }
   .hero { padding: 3rem 1.5rem 2rem; }
   .hero__title { font-size: 1.05rem; }
-  .hero__img { width: 7rem; height: 7rem; }
+  .hero__img { width: 116px; height: 116px; } /* 4× art scale */
   .page { padding: 2rem 1.25rem 4rem; }
   .about-header { flex-direction: column; text-align: center; }
-  .about-header img { width: 6rem; height: 6rem; }
+  .about-header img { width: 87px; height: 87px; } /* 3× art scale */
 }
