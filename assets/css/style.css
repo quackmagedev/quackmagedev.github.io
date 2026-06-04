@@ -337,6 +337,15 @@ body::before {
 .ideas-list li { color: var(--muted); font-size: .95rem; }
 .ideas-list strong { color: var(--text); }
 
+.ideas-subhead {
+  font-family: 'Press Start 2P', monospace;
+  font-size: .55rem;
+  letter-spacing: .08em;
+  color: var(--purple);
+  margin: 1.5rem 0 .6rem;
+  opacity: .8;
+}
+
 /* ─── About page ─── */
 .about-header {
   display: flex;
