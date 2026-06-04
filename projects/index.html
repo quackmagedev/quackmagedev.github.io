@@ -31,33 +31,12 @@
 
     <h2 class="section-title">🛠️ Active</h2>
 
-    <div class="cards">
-
-      <div class="card card--current">
-        <div class="card__title">🐒 Monkeyin' Around</div>
-        <p class="card__desc">A frantic co-op party game built around momentum and coordination. Players swing and sling monkeys using independent left/right grab mechanics — you can't do it alone, and doing it together is barely-controlled chaos.</p>
-        <div class="card__tags">
-          <span class="tag tag--green">Godot 4.6</span>
-          <span class="tag tag--green">C#</span>
-          <span class="tag tag--green">Jolt Physics</span>
-          <span class="tag tag--green">In Progress</span>
-        </div>
-        <a class="card__link" href="https://github.com/quackmagedev/monkeyin-around" target="_blank" rel="noopener">GitHub →</a>
-      </div>
-
-      <div class="card card--current">
-        <div class="card__title">🪨 Roshambo</div>
-        <p class="card__desc">Pick a rule system — Rock-Paper-Scissors, Wu Xing (五行), or Classical Planets — then watch territories fight for dominance. Grid, hex, Voronoi, and world map modes with zoom, pan, and mutation.</p>
-        <div class="card__tags">
-          <span class="tag tag--green">Python</span>
-          <span class="tag tag--green">Pygame</span>
-          <span class="tag tag--green">NumPy</span>
-          <span class="tag tag--green">In Progress</span>
-        </div>
-        <a class="card__link" href="https://github.com/quackmagedev/roshambo" target="_blank" rel="noopener">GitHub →</a>
-      </div>
-
-    </div>
+    <div id="active-projects"></div>
+    <script>
+      fetch('/fragments/active-projects.html')
+        .then(r => r.text())
+        .then(html => { document.getElementById('active-projects').innerHTML = html; });
+    </script>
 
     <h2 class="section-title">💡 Ideas</h2>
 
