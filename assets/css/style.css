@@ -28,6 +28,11 @@ img[src*="quackmage"] { image-rendering: pixelated; }
 }
 @keyframes cursor-blink { 50% { opacity: 0; } }
 
+@keyframes quack-float {
+  0%   { opacity: 1; transform: translateX(-50%) translateY(0); }
+  100% { opacity: 0; transform: translateX(-50%) translateY(-50px); }
+}
+
 body {
   background: var(--bg);
   color: var(--text);
@@ -141,7 +146,6 @@ body::before {
   50%       { transform: translateY(-10px); }
 }
 
-
 .hero__title {
   font-family: 'Press Start 2P', monospace;
   font-size: 1.6rem;
@@ -206,6 +210,7 @@ body::before {
   border-left: 3px solid var(--purple);
   border-radius: .6rem;
   padding: 1.25rem 1.5rem;
+  overflow: hidden;
   transition: border-left-color .25s, transform .2s;
 }
 
@@ -217,6 +222,14 @@ body::before {
 .card--current {
   border-left-color: var(--green);
   background: var(--surface);
+}
+
+.card__img {
+  display: block;
+  width: calc(100% + 3rem);
+  margin: -1.25rem -1.5rem 1rem;
+  height: 180px;
+  object-fit: cover;
 }
 
 .card__title {
@@ -345,6 +358,31 @@ body::before {
   border-top: 1px solid var(--border);
 }
 
+.ideas-subhead--massive { color: var(--purple); border-top-color: rgba(155,93,229,.25); }
+.ideas-subhead--large   { color: var(--gold);   border-top-color: rgba(252,156,36,.25); }
+.ideas-subhead--medium  { color: var(--green);  border-top-color: rgba(60,180,84,.25); }
+.ideas-subhead--small   { color: var(--yellow); border-top-color: rgba(252,252,12,.2); }
+
+/* ─── Devlog ─── */
+.devlog-entry { margin-bottom: 3rem; }
+.devlog-entry + .devlog-entry {
+  border-top: 1px solid var(--border);
+  padding-top: 3rem;
+}
+.devlog-date {
+  font-family: 'Press Start 2P', monospace;
+  font-size: .52rem;
+  color: var(--muted);
+  margin-bottom: .6rem;
+}
+.devlog-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.4;
+  margin-bottom: 1.25rem;
+}
+
 /* ─── About page ─── */
 .about-header {
   display: flex;
@@ -427,4 +465,5 @@ body::before {
   .page { padding: 2rem 1.25rem 4rem; }
   .about-header { flex-direction: column; text-align: center; }
   .about-header img { width: 87px; height: 87px; } /* 3× art scale */
+  .card__img { height: 130px; }
 }
