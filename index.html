@@ -20,7 +20,6 @@
     <div class="nav__links">
       <a href="/" class="active">Home</a>
       <a href="/projects/">Projects</a>
-      <a href="/about/">About</a>
     </div>
   </nav>
 
@@ -33,15 +32,15 @@
 
   <main class="page">
 
-    <h2 class="section-title">🛠️ Active Projects</h2>
+    <div class="prose">
+      <p>I'm an independent game developer exploring storytelling through mechanics and atmosphere.</p>
+      <p>I'm currently learning <a href="https://godotengine.org/" target="_blank" rel="noopener">Godot</a> and how to make pixel art. Expect <strong>devlogs</strong>, <strong>concept art</strong>, and <strong>small experimental releases</strong> soon.</p>
+      <p>Outside of my projects, I enjoy spending time with my wife and learning to speak new languages.</p>
 
-    <div id="active-projects"></div>
-    <script>
-      fetch('/fragments/active-projects.html')
-        .then(r => r.text())
-        .then(html => { document.getElementById('active-projects').innerHTML = html; });
-    </script>
-
+      <h2>🔮 Philosophy</h2>
+      <p>Games are magic: tiny systems that can surprise, delight, and challenge.</p>
+      <p>I love experimenting with quirky mechanics and humor in games.</p>
+    </div>
 
   </main>
 

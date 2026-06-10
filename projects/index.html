@@ -20,7 +20,6 @@
     <div class="nav__links">
       <a href="/">Home</a>
       <a href="/projects/" class="active">Projects</a>
-      <a href="/about/">About</a>
     </div>
   </nav>
 
@@ -31,12 +30,54 @@
 
     <h2 class="section-title">🛠️ Active</h2>
 
-    <div id="active-projects"></div>
-    <script>
-      fetch('/fragments/active-projects.html')
-        .then(r => r.text())
-        .then(html => { document.getElementById('active-projects').innerHTML = html; });
-    </script>
+    <div class="cards">
+
+      <div class="card card--current">
+        <div class="card__title">👽 Talent Acquisition</div>
+        <p class="card__desc">A competitive social stealth game where alien headhunters from rival empires, all disguised as ordinary office workers, race to recruit Earth's workforce before being exposed. Every movement matters: glitch once, act too perfectly, and you're a target.</p>
+        <div class="card__tags">
+          <span class="tag tag--green">Godot 4.6</span>
+          <span class="tag tag--green">C#</span>
+          <span class="tag tag--green">In Progress</span>
+        </div>
+      </div>
+
+      <div class="card card--current">
+        <div class="card__title">🔴 Fourfall</div>
+        <p class="card__desc">An industrial-themed rogue-lite that turns Connect Four's gravity-drop mechanics into a chain-reaction engine. Drop rule-breaking tokens, trigger cascades, and meet escalating Quotas before your board overflows.</p>
+        <div class="card__tags">
+          <span class="tag tag--green">Godot 4.6</span>
+          <span class="tag tag--green">C#</span>
+          <span class="tag tag--green">In Progress</span>
+        </div>
+        <a class="card__link" href="https://github.com/quackmagedev/fourfall" target="_blank" rel="noopener">GitHub →</a>
+      </div>
+
+      <div class="card card--current">
+        <div class="card__title">🐒 Monkeyin' Around</div>
+        <p class="card__desc">A frantic co-op party game built around momentum and coordination. Players swing and sling monkeys using independent left/right grab mechanics — you can't do it alone, and doing it together is barely-controlled chaos.</p>
+        <div class="card__tags">
+          <span class="tag tag--green">Godot 4.6</span>
+          <span class="tag tag--green">C#</span>
+          <span class="tag tag--green">Jolt Physics</span>
+          <span class="tag tag--green">In Progress</span>
+        </div>
+        <a class="card__link" href="https://github.com/quackmagedev/monkeyin-around" target="_blank" rel="noopener">GitHub →</a>
+      </div>
+
+      <div class="card card--current">
+        <div class="card__title">🪨 Roshambo</div>
+        <p class="card__desc">Rock-Paper-Scissors meets Balatro — the classic triangle turned into a roguelike card engine with escalating stakes and multiplier-chasing runs.</p>
+        <div class="card__tags">
+          <span class="tag tag--green">Python</span>
+          <span class="tag tag--green">Pygame</span>
+          <span class="tag tag--green">NumPy</span>
+          <span class="tag tag--green">In Progress</span>
+        </div>
+        <a class="card__link" href="https://github.com/quackmagedev/roshambo" target="_blank" rel="noopener">GitHub →</a>
+      </div>
+
+    </div>
 
     <h2 class="section-title">💡 Ideas</h2>
 
@@ -50,7 +91,7 @@
     <ul class="ideas-list">
       <li>🎨 <strong>Nick the Shape Man</strong>: A puzzle-platformer where you morph between shapes, each with distinct physics and abilities, to restore color to a world gone gray. Fast, expressive, and physics-driven. <a href="https://github.com/quackmagedev/nick-the-shape-man" target="_blank" rel="noopener">GitHub →</a></li>
       <li>🕯️ <strong>Clandestine</strong>: A narrative mystery inside the claustrophobic stone walls of a 16th-century monastery, where a humble monk unravels theological conspiracy and hushed murders through eavesdropping and lockpicking. Historically authentic and heavily researched. Anyone could be a heretic, or a killer.</li>
-<li>🌲 <strong>Inside the Hollow</strong>: A forest dungeon crawler set in a whimsical-but-uncanny hidden valley, with a full attribute system, class tree, and metal-infused soundtrack. Its saccharine surface slowly erodes, revealing that its creatures are each incomplete beneath the facade.</li>
+      <li>🌲 <strong>Inside the Hollow</strong>: A forest dungeon crawler set in a whimsical-but-uncanny hidden valley, with a full attribute system, class tree, and metal-infused soundtrack. Its saccharine surface slowly erodes, revealing that its creatures are each incomplete beneath the facade.</li>
     </ul>
 
     <p class="ideas-subhead">🔮 Medium</p>
